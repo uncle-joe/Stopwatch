@@ -25,7 +25,7 @@ static IOReturn success;
     
 }
 
-+ (void)Stop; {
++ (void)Stop {
     success = IOPMAssertionRelease(assertionID);
 }
 
